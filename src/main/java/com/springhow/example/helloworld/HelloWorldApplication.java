@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "This is Jenkins Tomcat in CI/CD.";
+        return "This is Jenkins Tomcat of automatic update in code in CI/CD.";
     }
 
 }
